@@ -1,7 +1,10 @@
 # XssLearner
 This project is a web application xss(Cross Site Scripting ) security training platform. XssLearner gives the opportunity to try out different type of xss attacks and follow up the necessary actions to prevent from hacking and to make sure the softwares are secure.
-Download
-Docker
+
+<h2>Download</h2>
+
+<h6>Docker Image</h6>
+
 There is also a docker image available from <a href="https://hub.docker.com/r/nadeeshani/xsslearner/">Dockerhub</a> you can pull it down with
 
 docker pull nadeeshani/xsslearner
@@ -11,6 +14,8 @@ Then run,
 docker run --rm -p 8080:8080 nadeeshani/xsslearner
 
 or 
+
+<h6>Download war file</h6>
 
 <a href="https://github.com/NShani/XssLearner/blob/master/target/xsslearner.war">download war file</a> and deploy in the tomcat.
 
