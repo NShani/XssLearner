@@ -12,7 +12,7 @@ docker run --rm -p 8080:8080 nadeeshani/xsslearner
 
 or 
 
-download the code
+<a href="https://github.com/NShani/XssLearner/blob/master/target/xsslearner.war">download war file</a> and deploy in the tomcat.
 
 <h2>What is the content?</h2>
 XSS learner can be used to try out some common xss(cross site scripting) attacks, such as,
