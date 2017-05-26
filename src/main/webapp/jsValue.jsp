@@ -46,10 +46,10 @@
                 %>
                 &lt;script>
                     function displayPosts(msg) {
-                        <%--document.getElementById("post-container").innerHTML=msg;--%>
+                        document.getElementById("post-container").innerHTML=msg;
                     }
                     window.onload = function() {
-                        var query='<%=name%>';
+                        var query='&lt;%=name%>';
                         displayPosts(query);
                     }
                 &lt;/script>
