@@ -5,11 +5,11 @@
 %>
 <script>
     function displayPosts(msg) {
-        document.getElementById("post-container").innerHTML=msg;
-    }
+        document.getElementById("post-container").textContent=msg;
 
+    }
     window.onload = function() {
-        var query='<%=name%>';
+        var query='<%=(name)%>';
         displayPosts(query);
     }
 </script>
@@ -22,5 +22,10 @@
         </form>
     </div>
     <div id="post-container"></div>
+    <div>
+        <form action="jsValue.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
 </body>
 </html>

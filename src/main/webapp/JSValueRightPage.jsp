@@ -5,10 +5,10 @@
 %>
 <script>
     function displayPosts(msg) {
-        document.getElementById("post-container").innerHTML=msg;
+        document.getElementById("post-container").textContent=msg;
     }
     window.onload = function() {
-        var query='<%=(Encode.forHtml(name))%>';
+        var query='<%=(Encode.forJavaScript(name))%>';
         displayPosts(query);
     }
 </script>
@@ -20,6 +20,11 @@
     <span style="font-family: Courier; padding-bottom: 20px">
             <a href="http://owasp.github.io/owasp-java-encoder/encoder/apidocs/index.html?index-all.html">For more Info follow forJavaScript encoding method..</a>
     </span>
+    <div>
+        <form action="JSValueAttackLesson.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
     <div>
         <form action="index.jsp" method="get">
             <input type="submit" value="Home" />

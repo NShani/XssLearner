@@ -16,6 +16,11 @@
             <a href="http://owasp.github.io/owasp-java-encoder/encoder/apidocs/index.html?index-all.html">For more Info follow forUriComponent encoding method..</a>
     </span>
     <div>
+        <form action="imgSrcUrlAttackLesson.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
+    <div>
         <form action="index.jsp" method="get">
             <input type="submit" value="Home" />
         </form>

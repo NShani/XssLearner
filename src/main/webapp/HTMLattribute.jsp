@@ -49,6 +49,11 @@
         </pre>
     </blockquote>
     <p id="msgContainer" onclick="getAttackScript() "><span style="color: #0066cc"> Click me to get the attacking script.</span></p>
+    <div>
+        <form action="index.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
     <script>
         function getAttackScript() {
             document.getElementById("msgContainer").innerHTML = document.getElementById('hiddenMsg').innerHTML;

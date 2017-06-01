@@ -9,5 +9,10 @@
         <span style="color: chocolate;padding-bottom: 10px"> Want to know the issue of the code</span>
         <input type="submit" value="YES" />
     </form>
+    <div>
+        <form action="hrefPage.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
 </body>
 </html>

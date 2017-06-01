@@ -14,6 +14,11 @@
         </span>
     </div>
     <div>
+        <form action="HTMLAttributeAttackLesson.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
+    <div>
         <form action="index.jsp" method="get">
             <input type="submit" value="Home" />
         </form>

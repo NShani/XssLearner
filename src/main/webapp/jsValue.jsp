@@ -46,7 +46,7 @@
                 %>
                 &lt;script>
                     function displayPosts(msg) {
-                        document.getElementById("post-container").innerHTML=msg;
+                        document.getElementById("post-container").textContent=msg;
                     }
                     window.onload = function() {
                         var query='&lt;%=name%>';
@@ -67,11 +67,16 @@
         <h2>
             <span style="color: #CC704C">
                 <code>
-                    &lt;img src="http://inexist.ent" onerror="javascript:alert(1)"/>
+                    whatever ';alert("YouHaveBeenHacked");//
                 </code>
             </span>
         </h2>
     </script>
     <p id="msgContainer" onclick="getAttackScript() "><span style="color: #0066cc"> Click me to get the attacking script.</span></p>
+    <div>
+        <form action="index.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
 </body>
 </html>

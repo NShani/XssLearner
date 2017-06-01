@@ -56,6 +56,12 @@
                                 &lt;div>&lt;%= <span style="color: orange" >Encode.<i>forHtml</i>((name)</span>); %>&lt;/div>
                             </code>
                         </pre>
+                        <h6>JavaScript Specific Recommendations</h6>
+                        <pre>
+                            <code>
+                                <span style="color:purple" >document.<i>getElementById</i></span>('<span style="color: #676767">div-id</span>').<span style="color: orangered">textContent</span> = <span style="color: #2aa82a">dynamicText</span>;
+                            </code>
+                        </pre>
                     </blockquote>
                         <h4>If you want to try out this code enter a query to search</h4>
                         <form method="get" action="HTMLElementRightPage.jsp">
@@ -69,5 +75,10 @@
     </div>
 </div>
 </table>
+    <div>
+        <form action="HTMLElementWrongPage.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
 </body>
 </html>

@@ -64,5 +64,10 @@
             </div>
         </div>
     </table>
+    <div>
+        <form action="imgSrcWrongPage.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
 </body>
 </html>

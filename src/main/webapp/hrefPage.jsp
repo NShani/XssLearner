@@ -80,6 +80,11 @@
             </td>
         </tr>
     </table>
+    <div>
+        <form action="index.jsp" method="get">
+            <input type="submit" value="Back" />
+        </form>
+    </div>
     <script>
             function getAttackScript1() {
                 document.getElementById("msgContainer").innerHTML = document.getElementById('hiddenMsg1').innerHTML;
