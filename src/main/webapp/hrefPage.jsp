@@ -98,7 +98,7 @@
             <h2>
                 <span style="color: #CC704C">
                     <code>
-                        1.png" onload=alert('YouHaveBeenHacked')>
+                        1.png" onload=alert('YouHaveBeenHacked')'//>
                     </code>
                 </span>
             </h2>

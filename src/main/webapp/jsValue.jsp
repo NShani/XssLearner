@@ -27,8 +27,6 @@
     </div>
     <form method="get" action="JSValueWrongPage.jsp">
         Search: <input name="query"  type="text">
-        <%--/<img src="images/xss.png">--%>
-        <%--<img src="images/nnnn" onerror=""/>--%>
         <input type="submit" value="Submit"  />
     </form>
     <h3>This is the code that is vulnerable...</h3>
