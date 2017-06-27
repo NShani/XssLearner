@@ -39,6 +39,10 @@ XSS learner can be used to try out some common xss(cross site scripting) attacks
       &lt;img src ="userInput">
       
       &lt;a href="userInput">
+      
+  5. DOM based Attack.
+  
+     <span style=" font-size: xx-large;margin-bottom: 100px" > &lt;div><span style="color: orange">userInput</span>&lt;/div></span>
 
 Then follow up the security guidelines to prevent each type of attacks by using <a href="https://github.com/OWASP/owasp-java-encoder">OWASP Java Encoder</a> . 
 
