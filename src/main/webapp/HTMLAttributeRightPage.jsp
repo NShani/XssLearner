@@ -8,7 +8,9 @@
     <div>
         <span style="color: #2aa82a;padding-bottom: 20px"> <h2>You are safe. You have not been attacked. </h2></span>
         <span><h4 style=" padding-bottom: 20px">  This is the input query after encoding. Here we used <i>forHtml</i> encoding. </h4></span>
-        <span style=" padding-bottom: 20px;font-size: 16px"> <%= Encode.forHtml(name) %> </span>
+        <td>
+           <input type="hidden" id="1" value=<%= Encode.forHtmlAttribute(name) %> />
+        </td>
         <span style="font-family: Courier; padding-bottom: 20px">
             <a href="http://owasp.github.io/owasp-java-encoder/encoder/apidocs/index.html?index-all.html">For more Info follow forHtml encoding method..</a>
         </span>
